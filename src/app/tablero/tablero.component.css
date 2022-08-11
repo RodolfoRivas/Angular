@@ -1,0 +1,12 @@
+main{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+
+}
+app-cuadro{
+    border: 1px rgb(128, 128, 128) solid;
+    background:rgb(24, 132, 195);
+    height: 200px;
+    object-fit: cover;
+}

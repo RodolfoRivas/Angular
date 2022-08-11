@@ -1,0 +1,10 @@
+<p>Jugador actual: {{ player }}</p>
+<button (click)="nuevoJuego()">Empieza un nuevo juego</button>
+<h2 *ngIf="ganador">El jugador {{ganador}} a ganao.</h2>
+<main>
+    <app-cuadro *ngFor="let val of cuadrados; let i = index"
+    [value]="val"
+    (click)="cambiar(i)">
+
+    </app-cuadro>
+</main>
