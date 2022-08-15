@@ -2,11 +2,47 @@ main{
     display:grid;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 10px;
+    background:rgb(32, 29, 214);
 
 }
 app-cuadro{
-    border: 1px rgb(128, 128, 128) solid;
-    background:rgb(24, 132, 195);
+    color:red;
+    border: 3px rgb(128, 128, 128) solid;
+    background:rgb(108, 193, 241);
     height: 200px;
-    object-fit: cover;
+    object-fit: fill;
+}
+button{  
+    position: relative;
+    top: 23.1%;
+    left: 29.5%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+app-tablero{
+
+    color:red;
+    border: 10px rgb(128, 128, 128) solid;
+
+    background:rgb(246, 132, 195);
+}
+h2{
+    background-color: #cbf029; 
+    color: rgb(12, 1, 1);
+    height: 50px;
+    text-align: center;
+    
+}
+p{
+    background-color: #b0f0f8; 
+    color: rgb(12, 1, 1);
+    text-align: center;
+
+
 }
